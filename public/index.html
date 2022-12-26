@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      /* width */
+      ::-webkit-scrollbar {
+        width: 10px;
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 5px;
+        }
+        
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+        background: #293a99e0; 
+        border-radius: 5px;
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+        background: #28347794; 
+        }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app" class="container-fluid"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+
+<!-- // nav {
+//   padding: 30px;
+// }
+
+// nav a {
+//   font-weight: bold;
+//   color: #2c3e50;
+//    margin-right: 5px;
+// }
+
+// nav a.router-link-exact-active {
+//   color: #42b983;
+//   background: red;
+// } -->
